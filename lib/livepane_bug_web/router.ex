@@ -17,7 +17,7 @@ defmodule LivepaneBugWeb.Router do
   scope "/", LivepaneBugWeb do
     pipe_through :browser
 
-    get "/", PageController, :home
+    live "/", ReproLive
   end
 
   # Other scopes may use custom stacks.

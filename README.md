@@ -1,18 +1,11 @@
 # LivepaneBug
 
-To start your Phoenix server:
+In a LiveView, after `handle_event` the position of panes is lost.
 
-* Run `mix setup` to install and setup dependencies
-* Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
+## Before click
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+![](./before-click.png)
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
+## After click
 
-## Learn more
-
-* Official website: https://www.phoenixframework.org/
-* Guides: https://hexdocs.pm/phoenix/overview.html
-* Docs: https://hexdocs.pm/phoenix
-* Forum: https://elixirforum.com/c/phoenix-forum
-* Source: https://github.com/phoenixframework/phoenix
+![](./after-click.png)

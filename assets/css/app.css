@@ -5,6 +5,7 @@
 @source "../css";
 @source "../js";
 @source "../../lib/livepane_bug_web";
+@source "../deps/live_pane";
 
 /* A Tailwind plugin that makes "hero-#{ICON}" classes available.
    The heroicons installation itself is managed by your mix.exs */
@@ -97,6 +98,8 @@
 @custom-variant phx-change-loading (.phx-change-loading&, .phx-change-loading &);
 
 /* Make LiveView wrapper divs transparent for layout */
-[data-phx-session] { display: contents }
+[data-phx-session] {
+  display: contents
+}
 
 /* This file is for your main application CSS */
